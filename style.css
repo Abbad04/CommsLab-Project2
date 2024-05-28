@@ -1,0 +1,10 @@
+.intro{
+    display: flex;
+    height: 1000px;
+    justify-content:space-around;
+    flex-direction: row;
+}
+.intro img{
+    margin-top: 400px;
+    width: 50%;   
+}
