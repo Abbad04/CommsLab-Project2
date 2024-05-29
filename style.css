@@ -1,0 +1,120 @@
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: row;
+    height: 750px;
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.intro img{
+    margin: auto;
+    width: 20%;   
+}
+
+#comicPanel{
+    background-image: url('SceneBackgrounds/startscene.png');
+    background-position: center center;
+    background-size: 110% 110%;
+    border-radius: 50px;
+    width: 80%;
+    height: 75%;
+    display: none;
+}
+
+#scene1Obj1, #scene1Obj2{
+    position: absolute;    
+}
+
+#scene1Obj1{
+    top: 60%;
+    left: 30%;
+}
+
+#scene1Obj2{
+    top: 55%;
+    left: 55%;
+}
+
+#narration{
+    position: absolute;
+    top: 90%;
+    background-color: white;
+    width: 50%;
+}
+
+#restart{
+    position: absolute;
+    top: 90%;
+    left: 25%;
+    background-color: white;
+    width: 50%;
+    display: none;
+}
+
+.thinkingBubble{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    display: none;
+}
+
+.bubble1{
+    position: absolute;
+    top:90%;
+    left:90%;
+    width: 10%;
+    height: 10%;
+    border-radius: 100%;
+    background-color: white;
+    border-style: solid;
+
+}
+
+.bubble2{
+    position: absolute;
+    top:80%;
+    left:80%;
+    width: 10%;
+    height: 10%;
+    border-radius: 100%;
+    background-color: white;
+    border-style: solid;
+
+
+
+}
+
+.bubble3{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 60%;
+    height: 60%;
+    border-radius: 100%;
+    background-color: white;
+    border-style: solid;
+}
+
+.bubble3 img{
+    position: relative;
+    top: 35%;
+    left: 35%;
+    width: 50px;
+}
+
+.pizza{
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    left: 100%;
+    display: none;
+}
+
+.pizza img{
+    width: 100%;
+}
